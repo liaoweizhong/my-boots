@@ -1,0 +1,25 @@
+.row { overflow: hidden; }
+.row > * { float: left; }
+.row > .w1 { width : 8.33% }
+.row > .w2 { width : 16.66% }
+.row > .w3 { width : 25.00% }
+.row > .w4 { width : 33.33% }
+.row > .w5 { width : 41.66% }
+.row > .w6 { width : 50.00% }
+.row > .w7 { width : 58.33% }
+.row > .w8 { width : 66.66% }
+.row > .w9 { width : 75.00% }
+.row > .w10 { width : 83.33% }
+.row > .w11 { width : 91.66% }
+.row > .w12 { width : 100% }
+
+.center { text-align: center; }
+.left { text-align: left; }
+.right { text-align: right; }
+
+.btn_img_text { cursor: pointer; transition: transform 0.3s; } 
+.btn_img_text img { height: 80%;width: 100%;display: block; }
+.btn_img_text span { font-size: 12px; color: #333;text-align: center;width: 100%;display: block; }
+
+/*点击特效*/
+.ck:active { transform: scale(0.8,0.8); }
